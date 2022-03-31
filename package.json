@@ -1,0 +1,16 @@
+{
+  "name": "web-pack-learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "config": {
+    "commitizen":{
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "author": "",
+  "license": "ISC"
+}
