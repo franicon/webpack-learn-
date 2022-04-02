@@ -40,15 +40,22 @@ __webpack_require__.r(__webpack_exports__);
 function Addimage() {
     
 }
-Addimage.prototype.newImage = function (image) {
+Addimage.prototype.newImage = function (image,title) {
     let img = document.createElement('img');
     img.width = 300;
+    img.alt = title
     img.src = image
     let body = document.querySelector('body');
     body.appendChild(img);
 }
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Addimage);
+
+/***/ }),
+/* 4 */
+/***/ ((module) => {
+
+module.exports = "This is the image title";
 
 /***/ })
 /******/ 	]);
@@ -119,6 +126,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _game_1_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 /* harmony import */ var _hello_world_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2);
 /* harmony import */ var _add_img_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(3);
+/* harmony import */ var _imgtitle_txt__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(4);
+
 
 
 
@@ -130,7 +139,7 @@ let hellofolks = new _hello_world_js__WEBPACK_IMPORTED_MODULE_1__["default"]();
 hellofolks.helloFolks();
 
 let addImage = new _add_img_js__WEBPACK_IMPORTED_MODULE_2__["default"]();
-addImage.newImage(_game_1_jpg__WEBPACK_IMPORTED_MODULE_0__);
+addImage.newImage(_game_1_jpg__WEBPACK_IMPORTED_MODULE_0__,_imgtitle_txt__WEBPACK_IMPORTED_MODULE_3__);
 
 
 
