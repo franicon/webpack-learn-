@@ -7,7 +7,7 @@ Greet.prototype.helloWorld = function () {
 }
 
 Greet.prototype.helloFolks = function () {
-    alert('Hello folks');
+    console.log('Hello folks');
 }
 
 export default Greet

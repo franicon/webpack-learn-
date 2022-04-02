@@ -1,0 +1,7 @@
+Asset Modules-
+-Types of asset modules
+There are four types of Asset modules
+1. asset/resource emit your file directly into the ouput directory for bigger asset
+2. asset/inline it inline directly into the bundle this can be use with small asset
+3. asset it chooses form inline or resource based on the size
+4. asset/source
