@@ -1,6 +1,7 @@
 import './hello-word.scss'
 function Greet() {
-    this.buttonCssClass = 'hello-button'
+    this.buttonCssClass = 'hello-button',
+    this.helloText = 'hello-text'
 }
 
 Greet.prototype.helloWorld = function () {
@@ -19,6 +20,7 @@ Greet.prototype.buttonHello = function () {
     helloButtoon.onclick = function () {
         let p = document.createElement('p');
         p.innerHTML = 'Hello World'
+        p.classList.add(this.helloText);
         body.appendChild(p);
     }
     let body = document.querySelector('body');

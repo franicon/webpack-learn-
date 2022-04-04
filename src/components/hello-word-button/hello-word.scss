@@ -1,5 +1,5 @@
 $primary-color: rgb(9, 68, 74);
-$small-shadow: 0 5px 15px 5px rgba(64, 44, 44, 0.186);
+$small-shadow: 0 5px 10px 5px rgba(64, 44, 44, 0.186);
 
 .hello-button{
     font-size: 15px;
@@ -11,4 +11,14 @@ $small-shadow: 0 5px 15px 5px rgba(64, 44, 44, 0.186);
     color: #fff;
     outline: none;
     box-shadow: $small-shadow;
+}
+
+.hello-text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: $primary-color;
+}
+
+p{
+     font-family: Arial, Helvetica, sans-serif;
+    color: $primary-color;
 }
